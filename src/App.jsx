@@ -1,7 +1,9 @@
+import LandingPage from "./pages/LandingPage"
+
 function App() {
   return (
     <>
-      <h1>Easybank</h1>
+      <LandingPage />
     </>
   )
 }
