@@ -1,7 +1,7 @@
 .feature {
     background-color: hsl(0, 0%, 98%);
     text-align: center;
-    padding: 40px 25px 60px 25px;
+    padding: 40px 25px;
 }
 
 .feature .headline {
