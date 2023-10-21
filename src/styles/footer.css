@@ -1,0 +1,53 @@
+.footer {
+    background-color: hsl(233, 26%, 24%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.footer-socmed {
+    display: flex;
+    gap: 15px;
+}
+
+.logo-socmed, .btn-credit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-navs ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-navs ul li {
+    list-style: none;
+    margin: 12px 0;
+}
+
+.footer-navs ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-btn {
+    background: linear-gradient(90deg, rgba(49,211,92,1) 11%, rgba(43,183,218,1) 89%);
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+.footer-credit {
+    color: rgba(220, 220, 220, 0.925);
+    font-size: 16px;
+}
