@@ -56,11 +56,14 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
+    .bg-mobile {
+        display: none;
+    }
 }
 
 /* desktop */
 @media (min-width: 1008px) {
-    .mobile {
+    .bg-mobile {
         display: none;
     }
 }
