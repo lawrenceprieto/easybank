@@ -9,3 +9,33 @@
 .d-none {
     display: none;
 }
+
+.modal {
+    margin-top: 70px;
+    padding: 0 15px;
+}
+
+.modal-body {
+    padding: 10px 0;
+}
+
+.modal-body ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.modal-body ul li {
+    margin: 20px;
+}
+
+.modal-body ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.modal-backdrop {
+    margin-top: 60px;
+}

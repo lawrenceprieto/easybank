@@ -1,17 +1,15 @@
-import { useState } from "react";
+import { useState } from "react"
 import "../styles/navbar.css"
+import Modal from 'react-bootstrap/Modal'
 
 function NavBar() {
 
     const [ hide, setHide ] = useState(true);
-    function handleHamburgerButton() {
-        setHide(false);
-    }
+    const [show, setShow] = useState(false);
 
-    function handleCloseButton() {
-        setHide(true);
-    }
-    
+    function handleHamburgerButton() { setHide(false); setShow(true); }
+    function handleCloseButton() { setHide(true); setShow(false); }
+
     return (
         <>
             <header>
@@ -47,6 +45,17 @@ function NavBar() {
                         </g>
                     </svg>
                 </div>
+                <Modal show={show} onHide={handleCloseButton}>
+                    <Modal.Body>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </Modal.Body>
+                </Modal>
             </header>
         </>
     )
