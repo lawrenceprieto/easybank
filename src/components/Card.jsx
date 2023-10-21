@@ -5,7 +5,7 @@ function CardComponent(props) {
         <>
             <Card style={{ width: "100%", border: "none"}}>
                 <Card.Img variant="top" src={props.image} alt={props.title} />
-                <Card.Body style={{padding: "20px 30px 40px 30px"}}>
+                <Card.Body style={{padding: "20px 22px 40px 22px"}}>
                     <Card.Text style={{
                             color: "hsl(233, 8%, 62%)", 
                             margin: "0"
@@ -15,7 +15,8 @@ function CardComponent(props) {
                     <Card.Title style={{
                             maxHeight: "50px", 
                             overflow: "hidden",
-                            margin: "10px 0"
+                            margin: "10px 0",
+                            color: "hsl(233, 26%, 24%)"
                         }}>
                         {props.title}
                     </Card.Title>
