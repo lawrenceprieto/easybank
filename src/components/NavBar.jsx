@@ -18,14 +18,26 @@ function NavBar() {
             <header>
                 <div className="navbar">
                     <img src={logo} alt="logo" />
-                    <img src={hamburgerButton} alt="hamburger-button" 
-                        className={ hide ? null : "d-none" }
-                        onClick={handleHamburgerButton}
-                    />
-                    <img src={closeButton} alt="close-button"
-                        className={ hide ? "d-none" : null } 
-                        onClick={handleCloseButton} 
-                    />
+                    <div className="navbar-mobile-menu">
+                        <img src={hamburgerButton} alt="hamburger-button" 
+                            className={ hide ? null : "d-none" }
+                            onClick={handleHamburgerButton}
+                        />
+                        <img src={closeButton} alt="close-button"
+                            className={ hide ? "d-none" : null } 
+                            onClick={handleCloseButton} 
+                        />
+                    </div>
+                    <div className="navbar-desktop-menu">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <button className="navbar-btn navbar-desktop-menu">Request Invite</button>
                 </div>
                 <Modal show={show} onHide={handleCloseButton}>
                     <Modal.Body>

@@ -39,3 +39,47 @@
 .modal-backdrop {
     margin-top: 60px;
 }
+
+/* mobile */
+@media (max-width: 640px) {
+    .navbar-desktop-menu {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1007px) {
+    .navbar-desktop-menu {
+        display: none;
+    }
+}
+
+/* desktop */
+@media (min-width: 1008px) {
+    .navbar {
+        padding: 10px 60px;
+    }
+    .navbar-mobile-menu {
+        display: none;
+    }
+    .navbar-desktop-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 20px;
+    }
+    .navbar-desktop-menu ul li a {
+        text-decoration: none;
+        color: hsl(233, 8%, 62%);
+        font-size: 18px;
+    }
+    .navbar-btn {
+        background: linear-gradient(90deg, rgba(49,211,92,1) 11%, rgba(43,183,218,1) 89%);
+        border-radius: 30px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        padding: 5px 30px;
+    }
+}
