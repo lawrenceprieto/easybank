@@ -33,7 +33,16 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .article {
+        padding: 0 100px;
+    }
+    .article-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .article-container .card {
+        flex: 1 0 calc(50% - 20px);
+    }
 }
 
 /* desktop */
