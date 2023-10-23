@@ -36,3 +36,36 @@
     font-size: 16px;
     color: hsl(233, 8%, 62%);
 }
+
+/* mobile */
+@media (max-width: 640px) {
+
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+/* desktop */
+@media (min-width: 1008px) {
+    .feature {
+        text-align: start;
+        padding: 60px 80px;
+        margin: 50px 0;
+    }
+    .feature .headline {
+        width: 50%;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .feature-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .feature-container {
+        flex: 1 0 calc(25% - 10px);
+        padding-right: 15px;
+    }
+}
