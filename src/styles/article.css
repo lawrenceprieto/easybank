@@ -17,6 +17,11 @@
     gap: 20px;
 }
 
+.article-container a {
+    text-decoration: none;
+    color: hsl(233, 26%, 24%);
+}
+
 /* mobile */
 @media (max-width: 640px) {
 
