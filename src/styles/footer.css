@@ -13,6 +13,14 @@
     gap: 15px;
 }
 
+.footer-socmed svg {
+    cursor: pointer;
+}
+
+.footer-socmed svg:hover {
+    fill: hsl(136, 65%, 51%);;
+}
+
 .logo-socmed, .btn-credit {
     display: flex;
     flex-direction: column;
@@ -38,6 +46,10 @@
     font-size: 16px;
 }
 
+.footer-navs ul li a:hover {
+    color: hsl(136, 65%, 51%);
+}
+
 .footer-btn {
     background: linear-gradient(90deg, rgba(49,211,92,1) 11%, rgba(43,183,218,1) 89%);
     border-radius: 30px;
@@ -45,6 +57,10 @@
     color: white;
     font-size: 18px;
     padding: 10px 30px;
+}
+
+.footer-btn:hover {
+    opacity: 0.8;
 }
 
 .footer-credit {
