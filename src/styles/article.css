@@ -16,3 +16,31 @@
     flex-direction: column;
     gap: 20px;
 }
+
+/* mobile */
+@media (max-width: 640px) {
+
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+/* desktop */
+@media (min-width: 1008px) {
+    .article {
+        margin: 50px 0;
+        padding: 60px 80px;
+    }
+    .article .headline {
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    .article .headline {
+        text-align: start;
+    }
+    .article-container {
+        flex-direction: row;
+    }
+}
