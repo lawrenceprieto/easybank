@@ -51,3 +51,39 @@
     color: rgba(220, 220, 220, 0.925);
     font-size: 16px;
 }
+
+/* mobile */
+@media (max-width: 640px) {
+
+}
+
+/* tablet */
+@media (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+/* desktop */
+@media (min-width: 1008px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px 80px;
+    }
+    .footer-navs ul {
+        /* padding-right: 100px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-navs ul li {
+        margin: 5px 0;
+        text-align: start;
+        flex: 1 0 calc(40% - 10px);
+    }
+    .logo-socmed {
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .btn-credit {
+        align-items: flex-end;
+    }
+}
