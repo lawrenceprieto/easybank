@@ -44,7 +44,20 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .feature {
+        padding: 0 100px;
+    }
+    .feature .headline {
+        text-align: start;
+    }
+    .feature-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    .feature-container {
+        flex: 1 0 calc(50% - 50px);
+    }
 }
 
 /* desktop */
