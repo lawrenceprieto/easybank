@@ -58,6 +58,10 @@
 @media (min-width: 1008px) {
     .navbar {
         padding: 10px 60px;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background-color: white;
     }
     .navbar-mobile-menu {
         display: none;
