@@ -79,4 +79,28 @@
     .bg-mobile {
         display: none;
     }
+    .herobanner {
+        /* background-color: red; */
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+        padding-top: 60px;
+    }
+    .hero-details {
+        align-items: flex-start;
+        padding: 0 0 0 80px;
+    }
+    .hero-img-container {
+        height: 500px;
+        width: 100%;
+        overflow: visible;
+    }
+    .hero-img {
+        top: -10%;
+        padding: 0 50px;
+    }
+    .bg-desktop {
+        width: 100%;
+    }
 }
