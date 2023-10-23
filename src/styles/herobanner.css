@@ -73,8 +73,20 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-    .bg-mobile {
+    .bg-mobile, .bg-desktop {
         display: none;
+    }
+    .herobanner {
+        flex-direction: row;
+        padding: 0 50px;
+        margin: 20px 0;
+    }
+    .hero-details {
+        align-items: flex-start;
+        text-align: start;
+    }
+    .hero-img {
+        top: 0;
     }
 }
 
