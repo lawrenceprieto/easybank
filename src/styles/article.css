@@ -22,6 +22,10 @@
     color: hsl(233, 26%, 24%);
 }
 
+.article-container a:hover {
+    color: green;
+}
+
 /* mobile */
 @media (max-width: 640px) {
 
