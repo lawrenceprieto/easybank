@@ -78,6 +78,13 @@
         color: hsl(233, 8%, 62%);
         font-size: 18px;
     }
+    .navbar a:hover {
+        color: black;
+        border-style: solid;
+        border-image: linear-gradient(90deg, rgba(49,211,92,1) 11%, rgba(43,183,218,1) 89%) 100% 0 ;
+        border-width: 0 0 3.5px 0;
+        padding-bottom: 16px;
+    }
     .navbar-btn {
         background: linear-gradient(90deg, rgba(49,211,92,1) 11%, rgba(43,183,218,1) 89%);
         border-radius: 30px;
@@ -85,5 +92,8 @@
         color: white;
         font-size: 16px;
         padding: 5px 30px;
+    }
+    .navbar-btn:hover {
+        opacity: 0.8;
     }
 }
