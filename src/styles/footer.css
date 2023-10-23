@@ -75,7 +75,10 @@
 
 /* tablet */
 @media (min-width: 641px) and (max-width: 1007px) {
-
+    .footer-navs ul {
+        display: flex;
+        gap: 18px;
+    }
 }
 
 /* desktop */
