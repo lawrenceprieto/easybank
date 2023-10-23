@@ -3,12 +3,17 @@ import Card from 'react-bootstrap/Card';
 function CardComponent(props) {
     return (
         <>
-            <Card style={{ width: "100%", border: "none"}}>
-                <Card.Img variant="top" src={props.image} alt={props.title} />
+            <Card style={{border: "none"}}>
+                <Card.Img variant="top" src={props.image} alt={props.title} style={{
+                    height: "auto",
+                    maxHeight: "160px",
+                    minHeight: "160px",
+                    width: "100%",
+                }}/>
                 <Card.Body style={{padding: "20px 22px 40px 22px"}}>
                     <Card.Text style={{
                             color: "hsl(233, 8%, 62%)", 
-                            margin: "0"
+                            margin: "0",
                         }}>
                         By {props.author}
                     </Card.Text>
@@ -18,7 +23,7 @@ function CardComponent(props) {
                             margin: "10px 0",
                             color: "hsl(233, 26%, 24%)"
                         }}>
-                        {props.title}
+                        <a href="">{props.title}</a>
                     </Card.Title>
                     <Card.Text style={{
                             color: "hsl(233, 8%, 62%)",
